@@ -1,12 +1,11 @@
 <script setup lang="ts">
 import Navbar from "./components/Navbar.vue";
-import Home from "./components/Home.vue";
 </script>
 
 <template>
     <div class="flex flex-col min-h-screen bg-main">
         <Navbar />
-        <Home />
+        <router-view />
     </div>
 </template>
 
